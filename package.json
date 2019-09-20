@@ -1,0 +1,64 @@
+{
+  "name": "react-redux-saga-typescript",
+  "version": "1.0.0",
+  "description": "A react redux saga typescript",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server  --mode development --inline --hot --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akapaddy/react-redux-saga-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akapaddy/react-redux-saga-typescript/issues"
+  },
+  "config": {
+    "CSS_NAMESPACE": "ap-",
+    "VERSION_NAMESPACE": "fe",
+    "HMR_MODE": "webpack"
+  },
+  "homepage": "https://github.com/akapaddy/react-redux-saga-typescript#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "core-js": "^3.2.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux-actions": "^2.6.5",
+    "redux-saga": "^1.0.5",
+    "reselect": "^4.0.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/classnames": "^2.2.9",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.2",
+    "@types/redux-actions": "^2.6.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "tslint": "^5.20.0",
+    "tslint-react": "^4.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
